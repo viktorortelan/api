@@ -1,7 +1,7 @@
 import express from "express";
 
 const servidor = express();
-
+//meu ovo
 servidor.get("/local/:n1/:n2", (req, resp) => {
 
 const value1 = Number(req.params.n1);
